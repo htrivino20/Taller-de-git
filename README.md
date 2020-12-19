@@ -46,6 +46,7 @@ En las tablas posteriors, se presentan los comandos más comunes empleados en la
 |`git remote add origin [URL]`|Lleva un repositorio local a un repositorio remoto|
 |`git pull origin main --allow-unrelated-histories`|Lleva los cambios realizados en el repositorio remoto al repositorio local permitiendo historias no relacionadas|
 |`git push origin main`|Lleva los cambios del repositorio local, al repositorio remoto|
+|`git clone [URL]`|Permite clonar un repositorio remoto|
 
 ## Inicializar un repositorio local para llevarlo a Github
 Para inicializar un nuevo repositorio, debemos dirigirnos en la carpeta donde ubicaremos el proyecto, luego:
