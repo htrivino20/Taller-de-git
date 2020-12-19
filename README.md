@@ -55,7 +55,7 @@ Para inicializar un nuevo repositorio, debemos dirigirnos en la carpeta donde ub
  3. Inicializamos el repositorio con comando `git init`.Al ejecutar el comando se creará un directorio `.git`, que se puede visualizar al activar la vista de archivos ocultos.
 4.  Para realizar el primer commit, se deben agregar los nuevos archivos al staging area con `git add <nombre del archivo>` para un archivo en particular, o `git add .` para agregar todos los archivos del directorio.
 5. Para realizar el commit se ejectua `git commit -m "mensaje"`; es una buena práctica dejar un mensaje relacionado a los cambios realizados.
-6. Se ejectua `git status` para visualizar el estado del repositorio, si nos encontramos en la rama master creamos una nueva rama con el nombre main `git branch main`, Github está en proceso de cambio de nombre de la rama `master` a `main`.
+6. Se ejectua `git status` para visualizar el estado del repositorio, si nos encontramos en la rama master creamos una nueva rama con el nombre main `git branch main` y nos cambiamos a esa rama con el comando `git checkout main`, Github está en proceso de cambio de nombre de la rama `master` a `main`.
 7. Se crea un nuevo repositorio remoto en Github.
 8. Para llevar el repositorio local a Github, se ejecuta `git remote add origin [URL]`, la URL se obtiene desde Github.
 9. Se realiza un pull para obtener los archivos dentro del repositorio `git pull origin main --allow-unrelated-histories` la bandera debido a que ambos repositorios tienen distintas historias.
