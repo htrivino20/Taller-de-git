@@ -49,7 +49,7 @@ En las tablas posteriors, se presentan los comandos más comunes empleados en la
 |`git clone [URL]`|Permite clonar un repositorio remoto|
 
 ## Inicializar un repositorio local para llevarlo a Github
-Para inicializar un nuevo repositorio, debemos dirigirnos en la carpeta donde ubicaremos el proyecto, luego:
+Para inicializar un nuevo repositorio, nos dirigimos a la carpeta donde ubicaremos el proyecto, luego:
 
  1. **Click derecho**, 
  2. Seleccionamos **Git Bash Here**, 
@@ -61,4 +61,11 @@ Para inicializar un nuevo repositorio, debemos dirigirnos en la carpeta donde ub
 8. Para llevar el repositorio local a Github, se ejecuta `git remote add origin [URL]`, la URL se obtiene desde Github.
 9. Se realiza un pull para obtener los archivos dentro del repositorio `git pull origin main --allow-unrelated-histories` la bandera debido a que ambos repositorios tienen distintas historias.
 10. Finalmente, `git push origin main` lleva todos los cambios al repositorio remoto.
+
+## Clonar un repositorio existente en Github a tu area de trabajo local
+
+Para inicializar un nuevo repositorio, nos dirigimos a la carpeta donde ubicaremos el proyecto, luego:
+ 1. **Click derecho**, 
+ 2. Seleccionamos **Git Bash Here**,
+ 3. Finalmente, clonar el repositorio con el comando `git clone [URL]`, la URL se obtiene desde el repositorio en Github.
 
