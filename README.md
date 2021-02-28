@@ -41,7 +41,7 @@ En las tablas posteriors, se presentan los comandos más comunes empleados en la
 |`git log`|Muestra el historial de commits con su descripción|
 |`git branch`|Muestra la lista de ramas que existen en el repositorio|
 |`git branch <nombre de rama>`|Crea una rama con el nombre indicado|
-|`git checkout <nombre de rama | hash del commit>`|Permite moverse entre ramas o entre commits	|
+|`git checkout <nombre de rama / hash del commit>`|Permite moverse entre ramas o entre commits	|
 |`git merge <nombre de rama>`|Combina los cambios entre dos ramas|
 |`git remote add origin [URL]`|Lleva un repositorio local a un repositorio remoto|
 |`git pull origin <nombre de rama> --allow-unrelated-histories`|Lleva los cambios realizados en el repositorio remoto al repositorio local permitiendo historias no relacionadas|
