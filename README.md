@@ -7,7 +7,8 @@ El taller tiene como objetivo introducir conceptos básicos relacionado al softw
 ## Requerimientos 
 ### Instalación
 Visitar: [Download Git](https://git-scm.com/downloads)
-Turorial recomendado: [Tutorial](https://myhanoli.com/2018/08/25/5-pasos-para-instalar-git-en-windows/)
+Turorial recomendado: [Windows](https://phoenixnap.com/kb/how-to-install-git-windows), [Linux](https://gist.github.com/derhuerst/1b15ff4652a867391f03#installing-git-on-linux), [MacOS](https://gist.github.com/derhuerst/1b15ff4652a867391f03#installing-git-on-a-mac)
+
 
 ### Cuenta en github
 Visitar: [Github](https://github.com/)
